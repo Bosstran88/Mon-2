@@ -68,3 +68,4 @@ public class BookList {
     }
 
 }
+/* BookStores(BookID,BookName,Author,Price)*/
