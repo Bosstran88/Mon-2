@@ -5,21 +5,27 @@
 body{
     font-family: 'Hammersmith One', sans-serif;
 }
-#menu .row{
+header{
+    margin-bottom: 30px;
+}
+#menu .rowe{
     margin: 0 auto;
     display: flex;
     width: 60%;
     height: 10%;
     flex: 1;
+    text-transform: uppercase;
+    font-weight:600;
+
 }
-#menu .row .add-study-resources,.revision-classes-updations,.student-academic-progress,.student-mark-update{
+#menu .rowe .add-study-resources,.revision-classes-updations,.student-academic-progress,.student-mark-update{
     height: 100%;
     background-color: #7ed957;
     padding: 0.8%;
     text-align: center;
-    border-radius: 3px;
+
 }
-#menu .row a{
+#menu .rowe a{
     text-decoration: none;
     color: black;
 }
@@ -27,6 +33,7 @@ body{
     margin:0 auto;
     padding-top: 50px;
     width: 60%;
+    height: 600px;  
 
 }
 table,td,th{
@@ -34,6 +41,7 @@ table,td,th{
 }
 .th-name{
     width: 250px;
+    text-align: center;
 }
 table{
     border-collapse: collapse;
@@ -50,8 +58,8 @@ td{
 .row-board{
     height: 100%;
 }
-.btn{
-    padding-left: 640px;
+.btne{
+    padding-left: 580px;
 }
 button{
     background-color: white;
@@ -76,6 +84,7 @@ button{
     height: 100%;
     font-size: 20px;
     text-align: center;
+    border: none;
 }
 #board-dlt{
     font-size: 20px;
@@ -83,4 +92,23 @@ button{
     text-align: center;
     display: none;
 }
+#input-search{
+    width: 10%;
+    height: 25px;
+    font-size: 16px;
+}
+.btn-add,.btn-dlt{
+    border-radius: 5px;
+}
+#search{
+    border: none;
+    cursor: pointer;
+}
+footer a{
+    text-decoration: none;
+}
+.content{
+    text-align: center;
+}
+
 
