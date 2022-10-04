@@ -16,8 +16,10 @@ function dlrow(){
     }
 }
 function cancel(){
-    var x = document.getElementById("board-dlt");
+    var x = document.getElementById("board-add");
     if (x.style.display === "block"){
         x.style.display = "none";
+    }else{
+        x.style.display = "block";
     }
 }
